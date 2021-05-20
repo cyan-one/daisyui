@@ -49,6 +49,12 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 npm i mintflowui --save
 ```
 
+or 
+
+```bash
+yarn add mintflowui
+```
+
 Then add mintflowui to your `tailwind.config.js`  
 [ [Read more][docs-url-install] ]
 ```js

@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+
+// ROUTING
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -26,6 +29,7 @@ function Sidebar() {
                         </div>
                         <nav class="mt-6">
                             <div>
+                            <Link to="/accordions">
                                 <a class="w-full font-thin uppercase text-blue-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start bg-gradient-to-r from-white to-blue-100 border-r-4 border-blue-500 dark:from-gray-700 dark:to-gray-800 border-r-4 border-blue-500" href="#">
                                     <span class="text-left">
                                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
@@ -37,6 +41,7 @@ function Sidebar() {
                                         Components 1
                                     </span>
                                 </a>
+                                </Link>
                                 <a class="w-full font-thin uppercase text-gray-500 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500" href="#">
                                     <span class="text-left">
                                         <svg width="20" height="20" fill="currentColor" class="m-auto" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
