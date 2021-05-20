@@ -13,13 +13,13 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 
 [![][banner-url]][docs-url]  
 
-# DaisyUI  
+# mintflowui  
 [![][build]][build-url] [![][npm]][npm-url] [![][number-of-components]][docs-url] [![][install-size]][install-size-url]  
 [![][dl]][npm-url] [![][commit]][gh-url] [![][license]][license-url]   
 
 
 - 👉 [ [See all components][docs-url] ]
-- 📘 Documents: [daisyui.com][docs-url]
+- 📘 Documents: [mintflowui.com][docs-url]
 - 🎲 Try it online: [Tailwind Play][tw-play-url] | [Codepen][codepen-url]
 - 📦 Source: [GitHub][gh-url] | [NPM][npm-url] | [Unpkg][unpkg-url] | [JSdeliver][jsdeliver-url]
 
@@ -27,7 +27,7 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 
 ## 🌼 Features   
 - **Tailwind CSS plugin**  
-  DaisyUI is a Tailwind CSS plugin. Install it, add it to your `tailwind.config.js` file.
+  mintflowui is a Tailwind CSS plugin. Install it, add it to your `tailwind.config.js` file.
 - **Component classes**  
   Adds component classes to Tailwind. Classes like `btn`, `card`,… So you will end up with a cleaner HTML.
 - **Semantic color names**  
@@ -46,16 +46,16 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 ## 👩‍💻 Install now!  
 
 ```bash
-npm i daisyui --save
+npm i mintflowui --save
 ```
 
-Then add DaisyUI to your `tailwind.config.js`  
+Then add mintflowui to your `tailwind.config.js`  
 [ [Read more][docs-url-install] ]
 ```js
 module.exports = {
 
   plugins: [
-    require('daisyui'),
+    require('mintflowui'),
   ],
 
 }
@@ -68,12 +68,12 @@ module.exports = {
 </summary>
 
 
->*Loading CSS files from CDN is not recommended for production. It's better to install Tailwind and DaisyUI as Nodejs dependencies so you can config/customize everything, and purge unused styles.*  
+>*Loading CSS files from CDN is not recommended for production. It's better to install Tailwind and mintflowui as Nodejs dependencies so you can config/customize everything, and purge unused styles.*  
 
   
 ```html
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
-<link href="https://cdn.jsdelivr.net/npm/daisyui@0.28/dist/full.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/mintflowui@0.28/dist/full.css" rel="stylesheet" type="text/css" />
 ```
 [ [Browse other versions][docs-url-install] ]
 
@@ -101,7 +101,7 @@ Use component classes like `btn`, `card`, etc… to build your UI.
 
 ## 📘 Documents + Examples  
 Read the documents for more info  
-[ [daisyui.com][docs-url] ↗︎ ]
+[ [mintflowui.com][docs-url] ↗︎ ]
 
 <details>
 <summary>
@@ -179,28 +179,28 @@ Read the documents for more info
 
 
 
-[install-size]: https://badgen.net/bundlephobia/minzip/daisyui?label=install%20size&color=purple
-[build]: https://badgen.net/github/checks/saadeghi/daisyui?label=build
-[npm]: https://badgen.net/npm/v/daisyui?label=version&color=purple
-[dl]: https://badgen.net/npm/dt/daisyui?icon=npm&color=purple
-[commit]: https://badgen.net/github/last-commit/saadeghi/daisyui?icon=github&color=purple
-[license]: https://badgen.net/github/license/saadeghi/daisyui?color=purple
-[tweet]: https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fsaadeghi%2Fdaisyui
+[install-size]: https://badgen.net/bundlephobia/minzip/mintflowui?label=install%20size&color=purple
+[build]: https://badgen.net/github/checks/saadeghi/mintflowui?label=build
+[npm]: https://badgen.net/npm/v/mintflowui?label=version&color=purple
+[dl]: https://badgen.net/npm/dt/mintflowui?icon=npm&color=purple
+[commit]: https://badgen.net/github/last-commit/saadeghi/mintflowui?icon=github&color=purple
+[license]: https://badgen.net/github/license/saadeghi/mintflowui?color=purple
+[tweet]: https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fsaadeghi%2Fmintflowui
 
-[install-size-url]: https://bundlephobia.com/result?p=daisyui
-[license-url]: https://github.com/saadeghi/daisyui/blob/master/LICENSE
-[npm-url]: https://www.npmjs.com/package/daisyui
-[gh-url]: https://github.com/saadeghi/daisyui
+[install-size-url]: https://bundlephobia.com/result?p=mintflowui
+[license-url]: https://github.com/saadeghi/mintflowui/blob/master/LICENSE
+[npm-url]: https://www.npmjs.com/package/mintflowui
+[gh-url]: https://github.com/saadeghi/mintflowui
 [tw-play-url]: https://play.tailwindcss.com/5du2H2Kyvq
 [codepen-url]: https://codepen.io/saadeghi/pen/gOwWKvv
-[unpkg-url]: https://unpkg.com/browse/daisyui/
-[jsdeliver-url]: https://www.jsdelivr.com/package/npm/daisyui
-[build-url]: https://github.com/saadeghi/daisyui/actions
-[tweet-url]: https://twitter.com/intent/tweet?text=DaisyUI%20%0D%0AUI%20Components%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/saadeghi/daisyui
+[unpkg-url]: https://unpkg.com/browse/mintflowui/
+[jsdeliver-url]: https://www.jsdelivr.com/package/npm/mintflowui
+[build-url]: https://github.com/saadeghi/mintflowui/actions
+[tweet-url]: https://twitter.com/intent/tweet?text=mintflowui%20%0D%0AUI%20Components%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/saadeghi/mintflowui
 [number-of-components]: https://badgen.net/badge/components%20added/31/purple
 
-[docs-url-install]: https://daisyui.com/docs/install
-[docs-url]: https://daisyui.com/
-[logo-url]: https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-3.svg
-[banner-url]: https://raw.githubusercontent.com/saadeghi/files/main/daisyui/card-3.png
+[docs-url-install]: https://mintflowui.com/docs/install
+[docs-url]: https://mintflowui.com/
+[logo-url]: https://raw.githubusercontent.com/saadeghi/files/main/mintflowui/logo-3.svg
+[banner-url]: https://raw.githubusercontent.com/saadeghi/files/main/mintflowui/card-3.png
 

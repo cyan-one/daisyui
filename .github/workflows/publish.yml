@@ -23,7 +23,7 @@ jobs:
       - id: check
         uses: EndBug/version-check@v1
         with:
-            file-url: https://unpkg.com/daisyui@latest/package.json
+            file-url: https://unpkg.com/mintflowui@latest/package.json
             static-checking: localIsNew
 
       - name: Install dependencies
@@ -57,4 +57,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./src/docs/dist
-          cname: daisyui.com
+          cname: mintflowui.com

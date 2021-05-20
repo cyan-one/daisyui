@@ -1,16 +1,16 @@
 {
-  "name": "daisyui",
+  "name": "mintflowui",
   "version": "0.28.0",
-  "description": "DaisyUI - Tailwind CSS Components",
+  "description": "mintflowui - Tailwind CSS Components",
   "author": "Pouya Saadeghi",
   "license": "MIT",
-  "homepage": "https://github.com/saadeghi/daisyui",
+  "homepage": "https://github.com/saadeghi/mintflowui",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saadeghi/daisyui.git"
+    "url": "git+https://github.com/saadeghi/mintflowui.git"
   },
   "bugs": {
-    "url": "https://github.com/saadeghi/daisyui/issues"
+    "url": "https://github.com/saadeghi/mintflowui/issues"
   },
   "keywords": [
     "design-system",
