@@ -13,6 +13,7 @@ import AvatarList from "./pages/AvatarList";
 import BadgeList from "./pages/BadgeList";
 import BreadcrumbsList from "./pages/BreadcrumbsList";
 import ButtonList from "./pages/ButtonList";
+import ButtonGroupList from "./pages/ButtonGroupList";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/badge" component={BadgeList} />
                 <Route path="/breadcrumbs" component={BreadcrumbsList} />
                 <Route path="/button" component={ButtonList} />
+                <Route path="/button-group" component={ButtonGroupList} />
               </Switch>
           </div>
         </div>
