@@ -2,7 +2,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="flex">
+    <div className="flex space-x-6">
       <div className="card bordered">
         <figure>
           <img src="https://picsum.photos/id/1005/400/250" />

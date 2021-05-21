@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonGroupOutline() {
   return (
-    <div>
+    <div className="flex-wrap space-y-6">
       <div className="btn-group">
         <button className="btn btn-outline btn-lg btn-active">Large</button> 
         <button className="btn btn-outline btn-lg">Large</button> 
