@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonWideSmall() {
   return (
-    <button class="btn btn-wide btn-sm">small</button>
+    <button className="btn btn-wide btn-sm">small</button>
     );
 }
                 

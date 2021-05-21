@@ -2,7 +2,7 @@ import React from "react";
 
 function BreadcrumbsScroll() {
   return (
-    <div class="max-w-xs text-sm breadcrumbs">
+    <div className="max-w-xs text-sm breadcrumbs">
       <ul>
         <li>If you set max-width</li> 
         <li>or the list</li> 

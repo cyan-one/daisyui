@@ -28,105 +28,105 @@ import ButtonWideTiny from "../components/buttons/ButtonWideTiny";
 
 function ButtonList() {
   return (
-        <div class="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
-                <div class="w-full">
-                    <div class="mb-4">
+        <div className="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
+                <div className="w-full">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonBrand />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonActive />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonOutline />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonDisabled />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonStates />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonResponsive />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonGlass />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonHTMLTags />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonSize />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonWideLarge />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonWide />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonWideSmall />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonWideTiny />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonIconStart />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonIconEnd />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonRounded />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonSquare />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonRoundedOutline />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonSquareOutline />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonBlock />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonLoading />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonLoadingOutline />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonLoadingSquare />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonLoadingRounded />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <ButtonDisabledAnnimation />                                   
                     </div>

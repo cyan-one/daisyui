@@ -2,7 +2,7 @@ import React from "react";
 
 function Breadcrumbs() {
   return (
-    <div class="text-sm breadcrumbs">
+    <div className="text-sm breadcrumbs">
       <ul>
         <li>
           <a>Home</a>

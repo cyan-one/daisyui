@@ -2,13 +2,13 @@ import React from "react";
 
 function Accordion() {
   return (
-<ul class="accordion">
-  <li class="accordion-item">
+<ul className="accordion">
+  <li className="accordion-item">
     <input id="item-507654" type="checkbox" /> 
-    <label for="item-507654" class="text-xl font-medium accordion-title">
+    <label for="item-507654" className="text-xl font-medium accordion-title">
     Aperiam iure expedita non fugit?
   </label> 
-    <div class="accordion-body">
+    <div className="accordion-body">
       <p>
           Aperiam iure expedita non fugit. Voluptatem est repellat a aut sit
           est nostrum maiores aut. Voluptas nisi totam eius architecto eius
@@ -18,12 +18,12 @@ function Accordion() {
         </p>
     </div>
   </li> 
-  <li class="accordion-item">
+  <li className="accordion-item">
     <input id="item-293921" type="checkbox" /> 
-    <label for="item-293921" class="text-xl font-medium accordion-title">
+    <label for="item-293921" className="text-xl font-medium accordion-title">
     Aperiam iure expedita non fugit?
   </label> 
-    <div class="accordion-body">
+    <div className="accordion-body">
       <p>
           Aperiam iure expedita non fugit. Voluptatem est repellat a aut sit
           est nostrum maiores aut. Voluptas nisi totam eius architecto eius
@@ -33,12 +33,12 @@ function Accordion() {
         </p>
     </div>
   </li> 
-  <li class="accordion-item">
+  <li className="accordion-item">
     <input id="item-815893" type="checkbox" /> 
-    <label for="item-815893" class="text-xl font-medium accordion-title">
+    <label for="item-815893" className="text-xl font-medium accordion-title">
     Aperiam iure expedita non fugit?
   </label> 
-    <div class="accordion-body">
+    <div className="accordion-body">
       <p>
           Aperiam iure expedita non fugit. Voluptatem est repellat a aut sit
           est nostrum maiores aut. Voluptas nisi totam eius architecto eius

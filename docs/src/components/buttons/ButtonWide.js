@@ -2,7 +2,7 @@ import React from "react";
 
 function ButtonWide() {
   return (
-    <button class="btn btn-wide">normal</button>
+    <button className="btn btn-wide">normal</button>
     );
 }
                 

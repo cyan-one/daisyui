@@ -14,14 +14,15 @@ import BadgeList from "./pages/BadgeList";
 import BreadcrumbsList from "./pages/BreadcrumbsList";
 import ButtonList from "./pages/ButtonList";
 import ButtonGroupList from "./pages/ButtonGroupList";
+import CardList from "./pages/CardList";
 
 function App() {
   return (
     <Router>
-      <main class="bg-gray-100 dark:bg-gray-800 rounded-2xl relative h-screen overflow-hidden">
-        <div class="flex items-start justify-between">
+      <main className="bg-gray-100 dark:bg-gray-800 rounded-2xl relative h-screen overflow-hidden">
+        <div className="flex items-start justify-between">
           <Sidebar />
-          <div class="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
+          <div className="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
             <Header />
               <Switch>
                 <Route path="/accordion" component={AccordionList} />
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/breadcrumbs" component={BreadcrumbsList} />
                 <Route path="/button" component={ButtonList} />
                 <Route path="/button-group" component={ButtonGroupList} />
+                <Route path="/card" component={CardList} />
               </Switch>
           </div>
         </div>

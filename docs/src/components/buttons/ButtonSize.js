@@ -3,10 +3,10 @@ import React from "react";
 function ButtonSize() {
   return (
       <div>
-        <button class="btn btn-lg">Large</button> 
-        <button class="btn">Normal</button> 
-        <button class="btn btn-sm">Small</button> 
-        <button class="btn btn-xs">Tiny</button>
+        <button className="btn btn-lg">Large</button> 
+        <button className="btn">Normal</button> 
+        <button className="btn btn-sm">Small</button> 
+        <button className="btn btn-xs">Tiny</button>
       </div>
     );
 }

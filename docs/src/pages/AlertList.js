@@ -10,37 +10,37 @@ import AlertText from "../components/alerts/AlertText";
 
 function AlertList() {
   return (
-        <div class="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
-                <div class="w-full">
-                    <div class="mb-4">
+        <div className="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
+                <div className="w-full">
+                    <div className="mb-4">
                         <h1>Alert</h1>
                         <Alert />                                   
                     </div>        
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert State Info</h1>
                         <AlertInfo />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert State Success</h1>
                         <AlertSuccess />                                   
                     </div> 
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert State Warning</h1>
                         <AlertWarning />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert State Error</h1>
                         <AlertError />                                   
                     </div>    
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert with two Buttons</h1>
                         <AlertTwoButtons />                                   
                     </div>  
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert with Button</h1>
                         <AlertButton />                                   
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                         <h1>Alert with Text</h1>
                         <AlertText />                                   
                     </div>     
