@@ -1,16 +1,16 @@
 {
   "name": "mintflowui",
   "version": "0.28.0",
-  "description": "mintflowui - Tailwind CSS Components",
-  "author": "Pouya Saadeghi",
+  "description": "mintflowui - CSS components for the crypto age",
+  "author": "Simon Weniger - MintKudos inc.",
   "license": "MIT",
-  "homepage": "https://github.com/saadeghi/mintflowui",
+  "homepage": "https://mintflowui.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saadeghi/mintflowui.git"
+    "url": "git+https://github.com/mintkudos/mintflowui.git"
   },
   "bugs": {
-    "url": "https://github.com/saadeghi/mintflowui/issues"
+    "url": "https://github.com/mintkudos/mintflowui/issues"
   },
   "keywords": [
     "design-system",
